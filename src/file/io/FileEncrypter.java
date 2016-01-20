@@ -12,6 +12,10 @@ public class FileEncrypter {
 		// TODO Auto-generated constructor stub
 	}
 
+	public static void foo() {
+		
+	}
+	
 	public static File openSecretFile() throws Exception {
 		File file = new File(filePath);
 		System.out.println("File path: " + file.getCanonicalPath());
